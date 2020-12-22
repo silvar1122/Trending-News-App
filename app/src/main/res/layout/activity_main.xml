@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#473E3E"
+    android:padding="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="35dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TrendingNews"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_light"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Username:"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#9F9797"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password:"
+        android:textColorHint="#9F9797"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/forgotPassworf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:textColor="#9F9797"
+        android:gravity="right"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:background="@drawable/login_button"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO ACCOUNT YET? SIGN UP NOW"
+        android:layout_gravity="center"
+
+        android:background="@drawable/register_bbutton"
+        android:layout_margin="0dp"/>
+
+
+</LinearLayout>
